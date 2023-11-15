@@ -66,6 +66,7 @@ body {
 
 
 #sidebar .brand {
+    font-family: 'Merriweather', serif;
     font-size: 24px;
     font-weight: 700;
     height: 56px;
@@ -142,6 +143,7 @@ body {
     color: var(--dark);
     white-space: nowrap;
     overflow-x: hidden;
+    font-family: 'Merriweather', serif;
 }
 
 #sidebar .side-menu.top li.active a {
@@ -285,6 +287,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Merriweather', serif;
 }
 
 #content nav .profile img {
@@ -310,6 +313,7 @@ body {
 }
 
 #content main .head-title .left h1 {
+    font-family: 'Rubik', sans-serif;
     font-size: 36px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -348,6 +352,7 @@ body {
     justify-content: space-between;
     grid-gap: 10px;
     font-weight: 500;
+    font-family: 'Rubik', sans-serif;
 }
 
 #content main .box-info {
@@ -375,6 +380,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Rubik', sans-serif;
 }
 
 
@@ -419,6 +425,7 @@ body {
 }
 
 #content main .table-data .head h3 {
+    font-family: 'Rubik', sans-serif;
     margin-right: auto;
     font-size: 24px;
     font-weight: 600;
@@ -439,6 +446,7 @@ body {
 }
 
 #content main .table-data .order table h3 {
+    font-family: 'Rubik', sans-serif;
     margin-right: auto;
     font-size: 24px;
     font-weight: 600;
@@ -464,6 +472,7 @@ body {
 
 
 #content main .table-data .order table th {
+    font-family: 'Rubik', sans-serif;
     padding-bottom: 12px;
     font-size: 13px;
     font-weight: 600;
@@ -477,6 +486,7 @@ body {
 }
 
 #content main .table-data .order table tr td .status {
+    font-family: 'Rubik', sans-serif;
     font-size: 10px;
     padding: 6px 16px;
     color: var(--light);
@@ -613,20 +623,52 @@ body {
     }
 
     #content main .table-data .head {
-        min-width: 420px;
+        min-width: 200px;
     }
 
     #content main .table-data .order table {
-        min-width: 420px;
+        min-width: 200px;
     }
 
     #content main .table-data .todo .todo-list {
-        min-width: 420px;
+        min-width: 200px;
     }
 
+    thead {
+        display: none;
+    }
+
+    #content main .table-data .order table tr td .status {
+        padding: 6px 10px;
+        position: relative;
+        left: 15px;
+    }
+
+    #content main .table-data .order table td img {
+        margin-top: 32px;
+
+    }
+
+    .name {
+        width: 75px;
+        display: inline-block;
+        position: relative;
+        top: 5px;
+    }
+
+    #content main .table-data .order table td.date {
+        padding: 0px;
+        display: inline-block;
+        margin-left: 50px;
+        position: relative;
+        top: -25px;
+    }
+
+    #content main .table-data>div {
+        padding: 24px 12px;
+    }
 
 }
-
 
 /* @media screen and (max-width: 576px) {
 
